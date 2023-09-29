@@ -1,0 +1,65 @@
+ /* CSS for header */
+ header {
+     background-color: #fff;
+     color: white;
+     padding: 20px 0;
+     position: relative;
+     text-align: center;
+     height: 100%;
+     width: 100%;
+ }
+
+ .flex-item {
+     flex: auto;
+     color: rgb(10, 9, 9);
+     font-weight: bolder;
+ }
+
+ .heads {
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: column;
+ }
+
+ .imgz {
+     size: 1cm;
+     top: 10%;
+     left: 10%;
+     margin-left: 20px;
+ }
+
+
+ #polygon-image {
+     background-image: url('./HeroImage.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     border: 2px solid rgb(7, 7, 7);
+     padding: 405px;
+     clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 50% 100%, 0% 88%);
+     filter: brightness(0.7) contrast(90%)
+ }
+
+ .div1 {
+     display: flex;
+     background-color: #333;
+     color: #fff;
+ }
+
+ nav {
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     top: 10%;
+     left: 30%;
+     /* background-color: #444; */
+     width: 100%;
+     padding: 1px 0;
+ }
+
+ nav a {
+     left: 20%;
+     display: block;
+     color: #fff;
+     text-decoration: none;
+     padding: 10px 20px;
+ }
