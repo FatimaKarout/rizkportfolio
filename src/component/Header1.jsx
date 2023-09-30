@@ -3,6 +3,7 @@ import './header.css'; // Import your CSS files
 import './button1.css';
 import Footer1 from './Footer1';
 import logo from './logoCrazy.jpg';
+
 const Header1 = () => {
     const [navVisible, setNavVisible] = useState(false);
     const toggleNav = () => {
@@ -13,8 +14,9 @@ const Header1 = () => {
             <div className="div1">
 
                 <img className="imgz" src={logo} alt="Logo" />
-                <nav id="nav" className={`nav1 ${navVisible ? 'show-nav' : ''}`}>
-                    <a href="{Footer1}">Home</a>
+
+                <nav id="nav" className={`nav ${navVisible ? 'show-nav' : ''}`}>
+                    <a href="{Footer1} target='_blank'">Home</a>
                     <a href="#">About</a>
                     <a href="#">Services</a>
                     <a href="#">Contact me</a>
@@ -24,7 +26,7 @@ const Header1 = () => {
             </div>
             <div id="polygon-image" className="heads">
                 <div className="flex-item">
-                    <h2>Welcome to My Portfolio</h2>
+                    <h1>Welcome to My portfolio</h1>
                 </div>
                 <div className="flex-item">
                     <h1>CRAZY WEB UI</h1>

@@ -11,8 +11,11 @@
 
  .flex-item {
      flex: auto;
-     color: rgb(10, 9, 9);
-     font-weight: bolder;
+     font-family: 'Arial Narrow Bold', sans-serif;
+     color: #fff;
+     font-weight: 800;
+     font-style: "bold";
+     /* font-size: x-large; */
  }
 
  .heads {
@@ -22,6 +25,7 @@
  }
 
  .imgz {
+     display: block;
      size: 1cm;
      top: 10%;
      left: 10%;
@@ -34,9 +38,9 @@
      background-repeat: no-repeat;
      background-size: cover;
      border: 2px solid rgb(7, 7, 7);
-     padding: 405px;
+     padding: 305px;
      clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 50% 100%, 0% 88%);
-     filter: brightness(0.7) contrast(90%)
+     filter: brightness(0.6);
  }
 
  .div1 {
@@ -51,7 +55,6 @@
      position: relative;
      top: 10%;
      left: 30%;
-     /* background-color: #444; */
      width: 100%;
      padding: 1px 0;
  }
@@ -62,4 +65,34 @@
      color: #fff;
      text-decoration: none;
      padding: 10px 20px;
+ }
+
+ nav a:hover {
+     color: grey;
+ }
+
+ @media only screen and (max-width: 600px) {
+     .nav {
+         padding: 5px;
+         display: flex;
+         flex-direction: column;
+         color: white;
+     }
+
+     nav a {
+         margin-right: 80%;
+         padding: 5px 10px;
+     }
+
+     .imgz {
+         display: block;
+         size: 2cm;
+         height: max-content;
+         margin-left: 10px;
+     }
+
+     #polygon-image {
+
+         padding: 105px;
+     }
  }
