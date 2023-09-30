@@ -11,11 +11,11 @@
 
  .flex-item {
      flex: auto;
-     font-family: 'Arial Narrow Bold', sans-serif;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      color: #fff;
-     font-weight: 800;
-     font-style: "bold";
-     /* font-size: x-large; */
+     font-weight: 900;
+     font-style: revert-layer;
+     font-size: x-large;
  }
 
  .heads {
@@ -38,9 +38,9 @@
      background-repeat: no-repeat;
      background-size: cover;
      border: 2px solid rgb(7, 7, 7);
-     padding: 305px;
+     padding: 255px;
      clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 50% 100%, 0% 88%);
-     filter: brightness(0.6);
+     filter: brightness(0.5);
  }
 
  .div1 {

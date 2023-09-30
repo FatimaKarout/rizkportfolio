@@ -12,15 +12,16 @@ const Footer1 = () => {
         <div className='foots'>
             <div className='Flex_containerz'>
                 <div className='flex-itemz'>
-                    <p> Our Address</p>
-
+                    <p> Our Addreses</p>
+                    <p style={{ color: 'white', }}>Beirut, Lebanon</p>
                     <p> Our HeadQuarters</p>
+                    <p style={{ color: 'white', }}> Dubai, U.A.E.</p>
                 </div>
                 {/* const  */}
                 <div className='flex-itemz'>
-                    <nav class="social-media"> Our Phones</nav>
-                    <p>Office Phone:</p><nav style={{ color: 'white' }}>+96104606987</nav>
-                    <p>Mobile Phone:</p><nav style={{ color: "white" }}>+96170606987</nav>
+                    <p class="social-media"> Our Phones</p>
+                    <p style={{ color: 'white', }}>Office  Phone:  +96104606987</p>
+                    <p style={{ color: "white" }}>Mobile Phone:   +96170606987</p>
                 </div>
 
                 <div className='flex-itemz'>
@@ -28,29 +29,36 @@ const Footer1 = () => {
                     <p>Follow us on social media:</p>
                     <div class="social-media">
 
-                        <a href="https://www.facebook.com" target='_blank'>
-                            <img src={Facebook} style={{ height: "25px", fill: 'white' }} alt='PhoneCall' />
+                        <a href="https://www.facebook.com" target='_blank' rel="noreferrer" >
+                            <img src={Facebook} style={{ height: "25px", fill: 'white' }} alt='Facebook' />
+                        </a>
+                        {/* </div>
+                    <div class="social-media"> */}
+                        <a href="https://www.github.com" target='_blank' rel="noreferrer" >
+                            <img src={Github} style={{ height: "25px", background: 'white' }} alt='Github' />
                         </a>
                     </div>
                     <div class="social-media">
 
-                        <a href="https://www.github.com" target='_blank'>
-                            <img src={Github} style={{ height: "25px", background: 'white' }} alt='PhoneCall' />
+                        <a href="https://www.instagram.com" target='_blank' rel="noreferrer" >
+                            <img src={Instagram} style={{ height: "25px", background: 'white' }} alt='Instagram' />
+                        </a>
+                        {/* </div>
+                    <div class="social-media"> */}
+                        <a href="https://twitter.com" target='_blank' rel="noreferrer" >
+                            <img src={Github} style={{ height: "25px", background: 'white' }} alt='twitter' />
                         </a>
                     </div>
-                    <div>
-                        <a href="https://twitter.com/">Twitter</a>
-                    </div>
-                    <div>
-                        <a href="https://www.instagram.com/">Instagram</a>
-                    </div>
-                    <div>
-                        <a href="https://www.linkedin.com/">Instagram</a>
-                    </div>
+
 
                 </div>
+                <div>
+
+                </div>
+
             </div>
         </div>
+
 
     )
 }

@@ -17,11 +17,12 @@ const Header1 = () => {
 
                 <nav id="nav" className={`nav ${navVisible ? 'show-nav' : ''}`}>
                     <a href="{Footer1} target='_blank'">Home</a>
-                    <a href="#">About</a>
                     <a href="#">Services</a>
-                    <a href="#">Contact me</a>
-                    <a href="#">MyBlogs</a>
-                    <a href="#">My Skills</a>
+                    <a href="#">Why Choose us</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">My Blogs</a>
+
                 </nav>
             </div>
             <div id="polygon-image" className="heads">

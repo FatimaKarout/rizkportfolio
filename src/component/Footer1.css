@@ -11,7 +11,7 @@
     flex-wrap: nowrap;
     flex-flow: row;
     justify-items: center;
-    column-gap: 30%;
+    column-gap: 25%;
 }
 
 .flex-itemz {
@@ -20,7 +20,7 @@
 
 .social-media {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 10px;
 }
 
