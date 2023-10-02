@@ -27,7 +27,7 @@ const Header1 = () => {
             </div>
             <div id="polygon-image" className="heads">
                 <div className="flex-item">
-                    <h1>Welcome to My portfolio</h1>
+                    <h1>Welcome to </h1>
                 </div>
                 <div className="flex-item">
                     <h1>CRAZY WEB UI</h1>

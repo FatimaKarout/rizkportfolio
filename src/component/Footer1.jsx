@@ -4,6 +4,7 @@ import PhoneCall from "../icons/PhoneCall.svg";
 import Github from "../icons/Github.svg";
 import Instagram from "../icons/Instagram.svg";
 import Facebook from "../icons/Facebook.jpg";
+import Linkedin from "../icons/linkedin.svg";
 
 
 
@@ -30,23 +31,23 @@ const Footer1 = () => {
                     <div class="social-media">
 
                         <a href="https://www.facebook.com" target='_blank' rel="noreferrer" >
-                            <img src={Facebook} style={{ height: "25px", fill: 'white' }} alt='Facebook' />
+                            <img src={Facebook} className='socimg' alt='Facebook' />
                         </a>
                         {/* </div>
                     <div class="social-media"> */}
                         <a href="https://www.github.com" target='_blank' rel="noreferrer" >
-                            <img src={Github} style={{ height: "25px", background: 'white' }} alt='Github' />
+                            <img src={Github} className='socimg' alt='Github' />
                         </a>
                     </div>
                     <div class="social-media">
 
                         <a href="https://www.instagram.com" target='_blank' rel="noreferrer" >
-                            <img src={Instagram} style={{ height: "25px", background: 'white' }} alt='Instagram' />
+                            <img src={Instagram} className='socimg' alt='Instagram' />
                         </a>
                         {/* </div>
                     <div class="social-media"> */}
-                        <a href="https://twitter.com" target='_blank' rel="noreferrer" >
-                            <img src={Github} style={{ height: "25px", background: 'white' }} alt='twitter' />
+                        <a href="https://linkedin.com" target='_blank' rel="noreferrer" >
+                            <img className='socimg' src={Linkedin} alt='Linkedin' />
                         </a>
                     </div>
 

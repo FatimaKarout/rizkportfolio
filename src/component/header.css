@@ -9,6 +9,14 @@
      width: 100%;
  }
 
+ .socimg {
+     color: black;
+     background-color: white;
+     border-radius: 20%;
+     height: 30px;
+
+ }
+
  .flex-item {
      flex: auto;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,7 +46,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      border: 2px solid rgb(7, 7, 7);
-     padding: 255px;
+     padding: 250px;
      clip-path: polygon(0% 0%, 100% 0%, 100% 88%, 50% 100%, 0% 88%);
      filter: brightness(0.5);
  }
