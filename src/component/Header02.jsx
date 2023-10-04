@@ -42,7 +42,7 @@ const Header2 = () => {
                 <nav id="nav" className={`nav ${navVisible ? 'show-nav' : ''}`}>
                     <a href="/ ">Home</a>
                     <a href="#">Services</a>
-                    <a href="#">Why Choose us</a>
+                    <a href="#">Why us</a>
                     <button onClick={'Skills'}>Skills</button>
                     {/* <a href="/Skills">Skills</a> */}
                     <a href="#">Contact us</a>
