@@ -3,6 +3,7 @@ import './header.css'; // Import your CSS files
 import './button1.css';
 import Footer1 from './Footer1';
 import logo from './logoCrazy.jpg';
+import Skills from './Experience.jsx';
 
 const Header1 = () => {
     const [navVisible, setNavVisible] = useState(false);
@@ -16,13 +17,12 @@ const Header1 = () => {
                 <img className="imgz" src={logo} alt="Logo" />
 
                 <nav id="nav" className={`nav ${navVisible ? 'show-nav' : ''}`}>
-                    <a href="{Footer1} target='_blank'">Home</a>
+                    <a href="/ ">Home</a>
                     <a href="#">Services</a>
                     <a href="#">Why Choose us</a>
-                    <a href="#">Skills</a>
+                    <a href="/Skills">Skills</a>
                     <a href="#">Contact us</a>
                     <a href="#">My Blogs</a>
-
                 </nav>
             </div>
             <div id="polygon-image" className="heads">

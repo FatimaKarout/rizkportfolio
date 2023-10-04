@@ -1,12 +1,14 @@
 // src/App.js
 import React, { useState } from 'react';
 import Footer1 from './component/Footer1';
-import Header1 from './component/Header1';
+import Header02 from './component/Header02';
+import Experience from './component/Experience';
 function App() {
   return (
     <>
       <div className="App">
-        <Header1 />
+        <Header02 />
+        {/* <Experience /> */}
         <Footer1 />
       </div>
     </>
