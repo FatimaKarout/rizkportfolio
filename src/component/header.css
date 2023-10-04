@@ -2,7 +2,7 @@
  header {
      background-color: #fff;
      color: white;
-     padding: 20px 0;
+     padding: 2px 0;
      position: relative;
      text-align: center;
      height: 100%;
@@ -34,7 +34,7 @@
 
 
  #polygon-image {
-     background-image: url('./HeroImage.jpg');
+     background-image: url('./assets/HeroImage.jpg');
      background-repeat: no-repeat;
      background-size: cover;
      border: 2px solid rgb(7, 7, 7);

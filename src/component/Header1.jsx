@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './header.css'; // Import your CSS files
 import './button1.css';
 import Footer1 from './Footer1';
-import logo from './logoCrazy.jpg';
+import logo from './assets/logoCrazy.jpg';
 
 const Header1 = () => {
     const [navVisible, setNavVisible] = useState(false);
@@ -27,7 +27,7 @@ const Header1 = () => {
             </div>
             <div id="polygon-image" className="heads">
                 <div className="flex-item">
-                    <h1>Welcome to My portfolio</h1>
+                    <h1>Welcome to</h1>
                 </div>
                 <div className="flex-item">
                     <h1>CRAZY WEB UI</h1>
