@@ -43,7 +43,6 @@ const Header2 = () => {
                     <a href="/ ">Home</a>
                     <a href="#">Services</a>
                     <a href="#">Why us</a>
-                    {/* <a href="/Skills">Skills</a> */}
                     <a href="#">Contact us</a>
                     <a href="#">My Blogs</a>
                 </nav>
