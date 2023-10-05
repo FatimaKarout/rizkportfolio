@@ -7,11 +7,13 @@ import ContactUs from './component/contactus';
 import Blog from './component/blog';
 import Content from './dashboardcomp/Content';
 import Projects from './component/project';
+import Services from './component/service';
 function App() {
   return (
     <>
       <div className="App">
         <Header1 />
+        <Services />
         <Whyus />
         <Blog />
         <ContactUs />
